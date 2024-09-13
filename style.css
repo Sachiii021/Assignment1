@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+    background: #FDF3F1; /* Use your desired background color */
+}
+
+.hero-content {
+    text-align: left; /* Align text to the left */
+}
+img{
+    background-color: aquamarine;
+}
+.features-section {
+    background: #FEBC94; /* Use your desired background color */
+}
+
+.team-section {
+    background: #96BA7B; /* Use your desired background color */
+}
+
+.subscribe-section {
+    background: #A01A10; /* Use your desired background color */
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #eee; /* Adjust background color as needed */
+    margin: 0 auto;
+}
+#learnMoreButton {
+    /* Base button styles */
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer; 
+  }
+  
+  #learnMoreButton:hover {
+    /* Hover animation - Arrow moves right */
+    transform: translateX(5px); 
+    transition: transform 0.2s ease; /* Smooth transition */
+  }
+  .card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+}
